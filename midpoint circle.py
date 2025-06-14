@@ -31,7 +31,7 @@ def midpoint_circle(xc, yc, r):
         else:
             y = y - 1
             p = p + 2 * (x - y) + 5
-        draw_circle_points(xc, yc, x, y)  # Moved outside the if-else to draw at every step
+        draw_circle_points(xc, yc, x, y)  
 
 def main():
     screen.fill(WHITE)
