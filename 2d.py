@@ -6,7 +6,7 @@ pygame.init()
 width, height = 800, 600
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Rotating Circle Example")
-
+ 
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 def draw_ellipse(xc, yc, rx, ry):
